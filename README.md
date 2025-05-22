@@ -2,17 +2,17 @@
 Authors: Matteo calviello, Paul Cleary, DJ Liveris, Preksha Sarda
 
 ## Project Overview
-This project predicts loan approval using various machine learning models for both classification and regression tasks. All code and scripts are complete, documented, and ready to run. Functions are kept small and/or include inline comments for clarity.
+This project predicts loan approval and loan size using various machine learning models for both classification and regression tasks. All code and scripts are complete, documented, and ready to run. Functions are kept small and/or include inline comments for clarity.
 
 ## How to Run
 1. **Install dependencies** (see below).
 2. **Place the data file** `loan_approval_dataset.csv` in the project root directory (`ML-Loan-Approval`).
-3. **Open and run the Jupyter notebooks** in order, or run individual scripts as needed. Each notebook is self-contained and includes comments for guidance.
+3. **Open and run the Jupyter notebooks**, or run individual scripts as needed. Each notebook is self-contained and includes comments for guidance.
 
 ## Dependencies
 Install all required packages with:
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn xgboost catboost
+pip install pandas numpy scikit-learn matplotlib seaborn xgboost catboost scipy
 ```
 **Required packages:**
 - pandas
@@ -22,6 +22,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost catboost
 - seaborn
 - xgboost
 - catboost
+- scipy
 
 ## Data
 - **Source:** The dataset `loan_approval_dataset.csv` should be placed in the project root directory.
